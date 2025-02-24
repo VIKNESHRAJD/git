@@ -5,7 +5,7 @@ import tensorflow as tf
 import os
 
 # Load trained model (ensure the correct path)
-MODEL_PATH = r"C:\Users\skani\OneDrive\Documents\Project\aquatic_species_model.h5"
+MODEL_PATH = r"aquatic_species_model.h5"
 
 # Check if model file exists
 if not os.path.exists(MODEL_PATH):
